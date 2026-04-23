@@ -1,0 +1,169 @@
+{
+  "_comment": "Expected dependency tree for paket-storage-packages probe. Fields marked PLACEHOLDER must be substituted by the scan runner at comparison time.",
+  "updateType": "OVERRIDE",
+  "type": "UA",
+  "agent": "paket",
+  "agentVersion": "PLACEHOLDER",
+  "pluginVersion": "PLACEHOLDER",
+  "orgToken": "PLACEHOLDER",
+  "userKey": "PLACEHOLDER",
+  "timeStamp": 0,
+  "requesterEmail": "PLACEHOLDER",
+  "aggregateModules": false,
+  "preserveModuleStructure": true,
+  "extraProperties": {
+    "contributionsAvailable": "PLACEHOLDER",
+    "commitUrl": "PLACEHOLDER",
+    "gitHubInstallationId": "PLACEHOLDER",
+    "scmApplicationId": "PLACEHOLDER",
+    "branchName": "main",
+    "checkRunId": "PLACEHOLDER",
+    "userOrgToken": "PLACEHOLDER",
+    "commitId": "PLACEHOLDER",
+    "scmInstallationId": "PLACEHOLDER",
+    "repository": "paket-storage-packages",
+    "scaResults": "PLACEHOLDER"
+  },
+  "scanSummaryInfo": {
+    "totalElapsedTime": 0,
+    "stepsSummaryInfo": [],
+    "packageManagers": ["paket"],
+    "isPrivileged": false,
+    "scanMethod": {
+      "type": "UA"
+    }
+  },
+  "contributions": [],
+  "projects": [
+    {
+      "projectToken": "PLACEHOLDER",
+      "dependencies": [
+        {
+          "groupId": "",
+          "artifactId": "Newtonsoft.Json",
+          "version": "13.0.3",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "Serilog",
+          "version": "3.1.1",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "Microsoft.Extensions.Logging",
+          "version": "8.0.0",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": [
+            {
+              "groupId": "",
+              "artifactId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+              "version": "8.0.1",
+              "systemPath": "",
+              "optional": false,
+              "filename": "paket.lock",
+              "dependencyType": "NUGET",
+              "dependencyFile": "paket.lock",
+              "children": null
+            },
+            {
+              "groupId": "",
+              "artifactId": "Microsoft.Extensions.Logging.Abstractions",
+              "version": "8.0.0",
+              "systemPath": "",
+              "optional": false,
+              "filename": "paket.lock",
+              "dependencyType": "NUGET",
+              "dependencyFile": "paket.lock",
+              "children": [
+                {
+                  "groupId": "",
+                  "artifactId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "version": "8.0.1",
+                  "systemPath": "",
+                  "optional": false,
+                  "filename": "paket.lock",
+                  "dependencyType": "NUGET",
+                  "dependencyFile": "paket.lock",
+                  "children": null
+                }
+              ]
+            },
+            {
+              "groupId": "",
+              "artifactId": "Microsoft.Extensions.Options",
+              "version": "8.0.0",
+              "systemPath": "",
+              "optional": false,
+              "filename": "paket.lock",
+              "dependencyType": "NUGET",
+              "dependencyFile": "paket.lock",
+              "children": [
+                {
+                  "groupId": "",
+                  "artifactId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "version": "8.0.1",
+                  "systemPath": "",
+                  "optional": false,
+                  "filename": "paket.lock",
+                  "dependencyType": "NUGET",
+                  "dependencyFile": "paket.lock",
+                  "children": null
+                },
+                {
+                  "groupId": "",
+                  "artifactId": "Microsoft.Extensions.Primitives",
+                  "version": "8.0.0",
+                  "systemPath": "",
+                  "optional": false,
+                  "filename": "paket.lock",
+                  "dependencyType": "NUGET",
+                  "dependencyFile": "paket.lock",
+                  "children": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupId": "",
+          "artifactId": "AutoMapper",
+          "version": "12.0.1",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": [
+            {
+              "groupId": "",
+              "artifactId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+              "version": "8.0.1",
+              "systemPath": "",
+              "optional": false,
+              "filename": "paket.lock",
+              "dependencyType": "NUGET",
+              "dependencyFile": "paket.lock",
+              "children": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+source https://api.nuget.org/v3/index.json
+
+storage: packages
+
+nuget Newtonsoft.Json >= 13.0.0 redirects: force
+nuget Serilog >= 3.0.0 copy_local: false
+nuget Microsoft.Extensions.Logging >= 8.0.0 import_targets: false
+nuget AutoMapper >= 12.0.0
